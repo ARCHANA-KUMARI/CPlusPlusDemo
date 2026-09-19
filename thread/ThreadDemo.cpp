@@ -16,7 +16,7 @@ int main() {
 
     t.join();
 
-    cout << "Main thread finished.";
+    cout << "Main thread finished."<<endl;
 
     return 0;
 }
