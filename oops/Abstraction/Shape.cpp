@@ -54,9 +54,12 @@ public:
 };
 
 int main() {
-    Rectangle rect("Red", 5.0, 3.0);
-    cout << "Area of rectangle: " << rect.area() << endl;
-    cout << "Color of rectangle: " << rect.getColor() << endl;
+    /*  Rectangle rect("Red", 5.0, 3.0);
+      cout << "Area of rectangle: " << rect.area() << endl;
+      cout << "Color of rectangle: " << rect.getColor() << endl;*/
 
+    Shape *s = new Rectangle("Yellow", 2, 4);
+    cout << "Rectangle color is " << s->getColor() << " and area is : " << s->area() << endl;
+    delete s; // This will call the destructor of Rectangle and then Shape
     return 0;
 }
