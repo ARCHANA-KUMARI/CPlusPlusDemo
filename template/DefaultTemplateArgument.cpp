@@ -28,5 +28,7 @@ int main() {
     Geek<char, float, std::string> geek3('A', 2.71f, "Template");
     geek3.getValues(); // Output: A 2.71 Template
 
+    Geek<char, float, std::string> geek4(2, 2.71f, "Template"); // Using default type for T3
+    geek4.getValues(); // Output: 2 2.71 Template
     return 0;
 }
