@@ -30,5 +30,7 @@ int main() {
 
     Geek<int, float, std::string> geek4(12, 2.71f, "Template"); // Using default type for T3
     geek4.getValues(); // Output: 12 2.71 Template
+    Geek<int, float, float> geek5(12, 2.71f, 3.14f); // Using default type for T3
+    geek5.getValues();
     return 0;
 }
