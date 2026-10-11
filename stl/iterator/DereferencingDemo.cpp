@@ -21,5 +21,14 @@ int main() {
     // Printing updated first element
     cout << "Updated first element: " << *it << endl;
 
+
+
+    // Incrementing iterator to move to the next element
+    ++it;
+    cout << "After increment: " << *it << endl;
+
+    // Decrementing iterator to move back to the previous element
+    --it;
+    cout << "After decrement: " << *it << endl;
     return 0;
 }
