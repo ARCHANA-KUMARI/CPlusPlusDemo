@@ -18,5 +18,12 @@ int main() {
     // Accessing elements
     std::cout << myMap["apple"] << std::endl;
     std::cout << myMap.at("banana") << std::endl;
+
+    // Updating value
+    myMap["a"] = 115;
+    myMap.at("banana") = 113;
+
+    cout << myMap["a"] << endl;
+    cout << myMap.at("banana");
     return 0;
 }
