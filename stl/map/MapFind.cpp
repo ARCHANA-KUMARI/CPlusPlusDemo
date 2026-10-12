@@ -21,5 +21,9 @@ int main() {
         std::cout << "Key " << keyToFind << " not found." << std::endl;
     }
 
+    // Traversing the map using iterators
+    for (auto it = myMap.begin(); it != myMap.end(); ++it)
+        std::cout << it->first << " " << it->second << std::endl;
+
     return 0;
 }
