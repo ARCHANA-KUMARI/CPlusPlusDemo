@@ -8,7 +8,8 @@ using namespace std;
 
 int main() {
     stack<int> s;
-
+    // Displaying the top element of an empty stack (undefined behavior)
+   // cout << s.top();
     // Pushing elements onto the stack
     s.push(10);
     s.push(20);
