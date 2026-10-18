@@ -8,6 +8,7 @@ int main() {
     std::string str = "Hello, World!";
     std::cout << "String: " << str << std::endl;
     std::cout << "Length: " << str.length() << std::endl;
+    std::cout << "Length using size(): " << str.size() << std::endl;
     std::cout << "Substring (0, 5): " << str.substr(0, 5) << std::endl;
     std::cout << "Find 'World': " << str.find("World") << std::endl;
 
