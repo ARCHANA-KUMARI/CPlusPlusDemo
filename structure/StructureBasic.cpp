@@ -9,6 +9,6 @@ struct Point {
 };
 int main(){
     Point p1 = {10, 20}; //Initialize a Point structure with x=10 and y=20
-    cout << "Point coordinates: (" << p1.x << ", " << p1.y << ")" << endl;
+    cout << "Point coordinates: (" << p1.x << ", " << p1.y << ")" << endl; // Accessing members of the structure using dot operator
     return 0;
 }
